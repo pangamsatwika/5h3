@@ -1,0 +1,26 @@
+class Addition
+{
+int a,b,tot;
+void add()
+{
+ a=5;
+ b=10;
+ tot=a+b;
+ System.out.println("Addition of two number is "+tot);
+}
+}
+class Maddition
+{
+ public static void main(String args[])
+{
+  Addition obj=new Addition();
+  obj.add();
+
+
+}
+}
+
+
+
+}
+}
